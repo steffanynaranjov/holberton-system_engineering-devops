@@ -1,3 +1,4 @@
+#!/bin/bash
 Shell Basics | A project Tasks:
  
 1.Where am I?
