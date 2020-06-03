@@ -18,4 +18,4 @@ Shell Basics | A project Tasks:
 16.Let's move
 17.Clean Emacs
 18.Tree
-19.Life is a series of commas, not periods
+19.Life is a series of commas, not periods \n
