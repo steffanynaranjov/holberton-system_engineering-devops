@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script is displaying "Holberton School" 10 times
+i="$(ls)"
+
+for i in "$i"
+do echo "$i" | cut -d "-" -f2
+done
