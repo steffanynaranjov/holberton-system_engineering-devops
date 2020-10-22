@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 # This script is displaying "Holberton School" 10 times
-
-while x=":" read -r USERNAME PASSWORD ID GROUP_ID INFO HOME_DIRECTORY SHELL
+while IFS=":" read -r USERNAME PASSWORD ID GROUP_ID INFO HOME_DIR SHELL
 do
-echo "The user $USERNAME is part of the $GROUP_ID gang, lives in $HOME_DIRECTORY \
+echo "The user $USERNAME is part of the $GROUP_ID gang, lives in $HOME_DIR \
 and rides $SHELL. $ID's place is protected by the passcode $PASSWORD, more info \
 about the user here: $INFO"
 done < /etc/passwd
