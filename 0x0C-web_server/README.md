@@ -1,37 +1,5 @@
 <h1 class="gap">0x0C. Web server</h1>
 
-      <p style="margin-bottom: 0"><em>For this project, students are expected to look at these concepts:</em></p>
-      <ul style="margin-top: 5px">
-          <li>
-            <em><a href="/concepts/12">DNS</a></em>
-          </li>
-          <li>
-            <em><a href="/concepts/17">Web Server</a></em>
-          </li>
-          <li>
-            <em><a href="/concepts/43">CI/CD</a></em>
-          </li>
-          <li>
-            <em><a href="/concepts/65">Docker</a></em>
-          </li>
-          <li>
-            <em><a href="/concepts/68">Web stack debugging</a></em>
-          </li>
-          <li>
-            <em><a href="/concepts/110">What is a Child Process?</a></em>
-          </li>
-          <li>
-            <em><a href="/concepts/124">DevOps</a></em>
-          </li>
-          <li>
-            <em><a href="/concepts/125">System Administration</a></em>
-          </li>
-          <li>
-            <em><a href="/concepts/126">Site Reliability Engineering</a></em>
-          </li>
-      </ul>
-    </div>
-
   <article id="description" class="gap formatted-content">
     <p><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/266/8Gu52Qv.png" alt="" style="" /></p>
 
