@@ -2,7 +2,6 @@
 #Configure your Nginx server so that /redirect_me is redirecting to another
 sudo apt-get update
 sudo apt-get -y install nginx
-echo "Holberton School" | sudo tee /var/www/html/index.html
 echo "Ceci n'est pas une page" | sudo tee /var/www/html/404.html
 str="server_name _;\n\terror_page 404 \/404.html;\n\tlocation = \/404.html {\n\t\troot \/var\/www\/html;\n\t\tinternal;\n\t}"
 sudo sed -i "s/server_name _;/$str/" /etc/nginx/sites-available/default
