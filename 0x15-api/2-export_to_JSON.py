@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-"""Python script that using a REST API, for a given employee ID,
-returns information about list progress"""
+"""
+Python script that using a REST API, for a given employee ID,
+"""
 
 if __name__ == '__main__':
     import sys
