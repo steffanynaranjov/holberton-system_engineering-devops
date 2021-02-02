@@ -11,11 +11,12 @@ if __name__ == '__main__':
 
     dict = {}
     for user in us_id:
-        dict[user.get("id")] = [{"username": user.get("username"),
-                                 "task": task.get("title"),
-                                 "completed": task.get("completed")}
+        dict[user.get("id")] = [{
+            "username": user.get("username"),
+            "task": task.get("title"),
+            "completed": task.get("completed")}
             for task in requests.get(url + "todos",
-                                    params={"userId": user.get("id")}).json()]
+                                     params={"userId": user.get("id")}).json()]
 
     with open("todo_all_employees.json", "w", newline="") as json_f:
         json.dump(dict, json_f)
