@@ -1,11 +1,12 @@
 # Sky is the limit, let's bring that limit higher
-exec {'exec_1':
-  command => 'sed -i "s/15/15000/" /etc/default/nginx',
+
+exec { 'fix--for-nginx':
+  command => 'sed -i "s/15/4096/" /etc/default/nginx',
   path    => '/usr/local/bin/:/bin/'
 }
 
-exec {'exec_2':
-  require  => Exec['exec_1'],
-  command => 'sudo nginx restart',
+# Restart Nginx
+-> exec { 'nginx-restart':
+  command => 'nginx restart',
   path    => '/etc/init.d/'
 }
